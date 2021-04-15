@@ -1,0 +1,21 @@
+  {{>header}}
+
+<body>
+  {{>navbar}}
+
+  <h1>This is login page</h1>
+  
+  <form action="/login" method="POST"   class="form-group col-md-2"> 
+    <div>
+      <input type="text" class="form-control" name="email" placeholder="Enter email"> 
+    </div>
+    <div >
+      <input type="password" class="form-control" name="password" placeholder="Enter password"> 
+    </div>
+    <div>
+      <input type="submit" value="Login"><a href="/registration"> Registration</a>
+    </div>
+  </form>
+        
+</body>
+</html>

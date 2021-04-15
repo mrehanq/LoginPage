@@ -1,0 +1,32 @@
+{{>header}}
+<body>
+    {{>navbar}}
+    <h1>This is Registration Page</h1>
+    <form action="/registration" method="POST" >
+        <div class="form-group col-md-2 ">
+          <div >
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control" name="fname" placeholder="Enter your first name">
+          </div>
+          <div >
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control" name="lname" placeholder="Enter your last name">
+          </div>
+        
+          <div >
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" placeholder="Email">
+          </div>
+          <div >
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Password">
+          </div>
+          <div>
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" class="form-control" name="confirmpassword" placeholder="Confirm Password">
+          </div>
+        </div>
+        <input type="submit" value="Register"> <a href="/login"> Login</a>
+      </form>
+</body>
+</html>
